@@ -15,7 +15,7 @@ function App() {
   <div>
    <Welcome/>
    <HelloWorld/>
-   <Greetings name="Vijay"/>
+   <Greetings name="Vijay Syam"/>
    <Department/>
    <Counter/>
    <ToggleMessage/>
