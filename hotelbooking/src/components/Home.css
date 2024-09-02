@@ -151,4 +151,114 @@
     font-size: 1.2em;
     color: #666;
   }
+  .popular-destinations {
+    margin: 40px 0;
+  }
+  
+  .popular-destinations h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .destination-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .destination-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .destination-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .destination-card h3 {
+    font-size: 1.5rem;
+    margin: 15px;
+    text-align: center;
+  }
+  
+  .testimonials {
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: #ff5a6098;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.096);
+  }
+  
+  .testimonial p {
+    margin: 0;
+    color: #000000;
+  }
+  
+  .contact-us {
+    margin: 40px 0;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+  
+  .site-footer {
+    background-color: #ff5a60b6;
+    color: rgb(9, 7, 7);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+  }
+  
+  .site-footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .social-media-icons {
+    margin-top: 10px;
+  }
+  
+  .social-media-icons a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  .social-media-icons a:hover {
+    text-decoration: underline;
+  }
   
